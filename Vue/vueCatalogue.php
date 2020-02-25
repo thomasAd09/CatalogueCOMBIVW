@@ -1,5 +1,3 @@
-<?php require 'Vue/gabarit.php' ?>
-
 <?php $titre = 'Combi'; ?>
 
 <?php ob_start(); ?>

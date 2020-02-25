@@ -1,5 +1,4 @@
-<?php require 'Vue/gabarit.php' ?>
-
+<?php require 'gabarit.php' ?>
 <!doctype html>
 <html>
   <head>
