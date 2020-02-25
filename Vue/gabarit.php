@@ -26,29 +26,7 @@
     </ul>
   </div>
 </nav>
-      </header>
-      <div class="jumbotron">
-      <h2 class="titre">The Combi Brazil</h2>
-      
-      <div class="Iam">
-  <p>Vous cherchez</p>
-  <b>
-  <div class="innerIam">
-    Un combi<br /> 
-    Une pièce<br />
-    Un conseil
-    </div>
-    </b>
-    </div>
-    <br />
-        <button type="button" class="btn btn-warning">Catalogue</button>
-  </p>
-      </div>
-      <h2> Qui somme nous ?</h2>
-      <div id="contenu">
-        <?= $contenu ?>   <!-- Élément spécifique -->
-      </div>
-      
+      </header>  
       <footer id="piedBlog">
         Blog réalisé avec PHP, HTML5 et CSS.
       </footer>
