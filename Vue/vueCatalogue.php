@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 <?php $titre = 'The Combi Brazil'; ?>
+=======
+<?php $titre = 'Combi'; ?>
+>>>>>>> cdfb9acd4d85a525413ff62e0e6b24fe9d07b4e0
 
 <?php ob_start(); ?>
 <?php foreach ($produits as $produit): ?>

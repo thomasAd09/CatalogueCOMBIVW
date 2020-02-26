@@ -1,5 +1,8 @@
 <?php require 'gabarit.php' ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdfb9acd4d85a525413ff62e0e6b24fe9d07b4e0
 <!doctype html>
 <html>
   <head>
