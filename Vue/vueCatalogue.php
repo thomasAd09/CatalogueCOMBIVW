@@ -1,15 +1,13 @@
-<<<<<<< HEAD
-
-<?php $titre = 'The Combi Brazil'; ?>
-=======
-<?php $titre = 'Combi'; ?>
->>>>>>> cdfb9acd4d85a525413ff62e0e6b24fe9d07b4e0
+<?php $titre = "The Combi Brazil"; ?>
 
 <?php ob_start(); ?>
+
+<a href='<?= "index.php?action=catalogue" ?>' target="_blank"> <button type="button" class="btn btn-warning">Catalogue</button></a>
+
 <?php foreach ($produits as $produit): ?>
   <article>
     <header>
-      <h1 class=""><?= $produit['titre'] ?></h1>
+      <h3 class=""><?= $produit['titre'] ?></h3>
       <time><?= $produit['date'] ?></time>
     </header>
     <p><?= $produit['short_desc'] ?></p>
@@ -19,8 +17,3 @@
 <?php $contenu = ob_get_clean(); ?>
 
 <?php require 'gabarit.php'; ?>
-
-<form method="post" action="index.php?action=poster">
-    <input type="file" name="file">
-    <input type="submit" name="sumbit">
-</form>

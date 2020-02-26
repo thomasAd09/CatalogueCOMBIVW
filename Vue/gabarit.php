@@ -27,6 +27,9 @@
   </div>
 </nav>
 </header>  
+<div id="contenu">
+  <?= $contenu ?>
+</div>
 <footer id="piedBlog">
   Blog réalisé avec PHP, HTML5 et CSS.
 </footer>

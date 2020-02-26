@@ -1,8 +1,6 @@
-<?php require 'gabarit.php' ?>
-<<<<<<< HEAD
+<?php $titre = 'The Combi Brazil'; ?>
+<?php ob_start(); ?>
 
-=======
->>>>>>> cdfb9acd4d85a525413ff62e0e6b24fe9d07b4e0
 <!doctype html>
 <html>
   <head>
@@ -25,13 +23,12 @@
   </b>
   </div>
     <br />
-    <a href="Vue/vueCatalogue.php" target="_blank"> <button type="button" class="btn btn-warning">Catalogue</button></a>
-
+    <a href='<?= "index.php?action=catalogue" ?>' target="_blank"> <button type="button" class="btn btn-warning">Catalogue</button></a>
     </p>
   </div>
   <h2> Qui somme nous ?</h2>
-  <div id="contenu">
-    <?= $contenu ?>   <!-- Élément spécifique -->
-  </div>
   </body>
 </html>
+
+<?php $contenu = ob_get_clean(); ?>
+<?php require 'gabarit.php'; ?>
