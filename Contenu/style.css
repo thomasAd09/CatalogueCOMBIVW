@@ -1,3 +1,7 @@
+#titreBlog, #piedBlog {
+  text-align: center;
+}
+
 .jumbotron{
     background-image:url(img/mainpic.jpg);
     height: 700px;

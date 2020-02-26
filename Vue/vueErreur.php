@@ -1,4 +1,4 @@
-<?php $titre = ''; ?>
+<?php $titre = 'The Combi Brazil'; ?>
 
 <?php ob_start() ?>
 <p>Une erreur est survenue : <?= $msgErreur ?></p>

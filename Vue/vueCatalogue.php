@@ -1,6 +1,5 @@
-<?php require 'Vue/gabarit.php' ?>
 
-<?php $titre = 'Combi'; ?>
+<?php $titre = 'The Combi Brazil'; ?>
 
 <?php ob_start(); ?>
 <?php foreach ($produits as $produit): ?>
