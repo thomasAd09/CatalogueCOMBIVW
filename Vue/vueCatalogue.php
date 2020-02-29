@@ -2,15 +2,14 @@
 
 <?php ob_start(); ?>
 
-<a href='<?= "index.php?action=catalogue" ?>' target="_blank"> <button type="button" class="btn btn-warning">Catalogue</button></a>
 
 <?php foreach ($produits as $produit): ?>
   <article>
     <header>
       <h3 class=""><?= $produit['titre'] ?></h3>
-      <time><?= $produit['date'] ?></time>
     </header>
-    <p><?= $produit['short_desc'] ?></p>
+    <h6><?= $produit['short_desc'] ?> </h6>
+   <h4> <?= $produit['prix']?> €</p></h4>
   </article>
   <hr />
 <?php endforeach; ?>

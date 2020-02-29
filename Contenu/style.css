@@ -12,10 +12,9 @@
 
 .titre{
     text-align: center;
-    color: rgb(0, 155, 0);
+    color: rgb(255, 255, 255);
     font-size: 50px;
-    text-shadow: 2px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0),
-      1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0)
+
 }
 
 .Iam {
@@ -87,4 +86,20 @@
     0%  { top: 0px; }
     20% { top: -50px; }
     40% { top: -100px; }
+}
+
+.logo-site{
+  max-width : 130px;
+  height: auto;
+  display: block;
+  margin-top: -1px; 
+
+}
+article{
+
+
+}
+
+h4 {
+  color: orangered;
 }
