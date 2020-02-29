@@ -103,3 +103,10 @@ article{
 h4 {
   color: orangered;
 }
+
+.divsize {
+  width: 170px;
+  height: 300px;
+  border: 1px solid darkgrey;
+  box-sizing: border-box;
+}

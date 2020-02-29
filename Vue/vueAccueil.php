@@ -26,7 +26,7 @@
     <a href='<?= "index.php?action=catalogue" ?>' target="_blank"> <button type="button" class="btn btn-warning">Catalogue</button></a>
     </p>
   </div>
-  <h2> Qui somme nous ?</h2>
+  <h2> Qui sommes nous ?</h2>
   </body>
 </html>
 

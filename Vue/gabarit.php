@@ -6,6 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>The Combi Brazil</title>   <!-- Élément spécifique -->
+    <link rel="icon" href="Contenu/img/logo.ico" />
   </head>
   <body>
     <div id="global">
@@ -17,7 +18,7 @@
   <a href=""><img class="logo-site" src="Contenu/img/logo.png"/></a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
       </li>
