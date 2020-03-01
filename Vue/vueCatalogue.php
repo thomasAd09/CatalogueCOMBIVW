@@ -12,14 +12,13 @@
         <h3 class=""><?= $produit['titre'] ?></h3>
       </header>
       <h6><?= $produit['short_desc'] ?> </h6>
-    <h4> <?= $produit['prix']?> €</p></h4>
-    </article>
-
+    <div class="divsize-price">
+      <h4> <?= $produit['prix']?> €</p></h4>
+    </div>  
     </div>
     </div>
   <?php endforeach; ?>
   </div>
 </div>
 <?php $contenu = ob_get_clean(); ?>
-
 <?php require 'gabarit.php'; ?>

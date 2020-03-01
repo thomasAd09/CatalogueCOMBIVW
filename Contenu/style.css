@@ -105,8 +105,14 @@ h4 {
 }
 
 .divsize {
+  position: relative;
   width: 170px;
   height: 300px;
   border: 1px solid darkgrey;
   box-sizing: border-box;
+}
+.divsize-price{
+    position: absolute;
+    bottom :0;
+    right:30%;
 }
