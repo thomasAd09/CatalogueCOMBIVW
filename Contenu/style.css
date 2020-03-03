@@ -109,10 +109,15 @@ h4 {
   width: 170px;
   height: 300px;
   border: 1px solid darkgrey;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+
 }
 .divsize-price{
     position: absolute;
     bottom :0;
     right:30%;
+}
+
+.col-xs-4{
+  padding: 15px;
 }

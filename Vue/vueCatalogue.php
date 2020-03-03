@@ -3,9 +3,9 @@
 <?php ob_start(); ?>
 
 <div class="container">
-  <div class="row row-cols-4">
+  <div class="row">
   <?php foreach ($produits as $produit): ?>
-    <div class="col">
+    <div class="col-xs-4 form-group">
     <div class="divsize">
     <article>
       <header>
